@@ -28,5 +28,6 @@ public class ejercicio5 {
         }
 
         System.out.printf("!%d = %d",n,fact);
+        sc.close();
     }
 }

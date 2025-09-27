@@ -23,5 +23,7 @@ public class ejercicio4 {
             fn1 = fn2;
             fn2 = fn3;
         }
+
+        sc.close();
     }
 }

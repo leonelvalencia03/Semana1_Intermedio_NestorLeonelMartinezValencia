@@ -49,5 +49,7 @@ public class ejercicio3 {
         else {
             System.out.printf("%d NO es primo",n);
         }
+
+        sc.close();
     }
 }
