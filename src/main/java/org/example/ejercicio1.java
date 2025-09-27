@@ -41,9 +41,15 @@ public class ejercicio1 {
                     System.out.println("===============================");
                     System.out.print("Coloque la cantidad de dinero: ");
                     double cantidad = sc.nextDouble();
-                    saldo += cantidad;
+                    if (cantidad > 0){
+                        saldo += cantidad;
+                        System.out.println("El saldo depositado es: " + cantidad);
+                    }
 
-                    System.out.println("El saldo depositado es: " + cantidad);
+                    else {
+                        System.out.println("ERROR: No puede colocar una cantidad negativa");
+                        System.out.println("Cantidad depositada \'$0\'");
+                    }
                     break;
                 case 3:
                     System.out.println("\n\n");
@@ -75,7 +81,7 @@ public class ejercicio1 {
             }
         }while (true);
 
-
+        sc.close();
     }
 
 }
