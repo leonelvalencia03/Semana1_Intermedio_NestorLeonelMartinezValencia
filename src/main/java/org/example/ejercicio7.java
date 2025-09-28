@@ -30,5 +30,6 @@ public class ejercicio7 {
                 break;
             }
         }
+        sc.close();
     }
 }
